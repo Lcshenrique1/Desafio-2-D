@@ -156,7 +156,7 @@ i:hover{
 @media only screen and (max-width:800px){
 	html{
 	width: 365px;
-	height: 625x;
+	height: 625px;
 	padding: 0px;
 	
 	} 
@@ -169,7 +169,7 @@ i:hover{
      .conteiner{
      	background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
      	width: 365px;
-		height: 625px;
+		height: 770px;
 		margin: 0 auto;
 		background-repeat: no-repeat;
     }
