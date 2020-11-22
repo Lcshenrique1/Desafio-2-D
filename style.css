@@ -12,7 +12,7 @@ body{
 .conteiner{
 	background-color: #674bb1;
 	width: 1366px;
-	height: 635px;
+	height: 1000px;
 	background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
 	
 
@@ -169,7 +169,7 @@ i:hover{
      .conteiner{
      	background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
      	width: 365px;
-		height: 770px;
+		height: 1000px;
 		margin: 0 auto;
 		background-repeat: no-repeat;
     }
