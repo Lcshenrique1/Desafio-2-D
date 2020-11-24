@@ -1,0 +1,11 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.conteiner{
+	position: relative;
+	width: 1300px;
+	margin: 0 auto;
+	height: 500px;
+	background-color: #40E0D0;
+}
