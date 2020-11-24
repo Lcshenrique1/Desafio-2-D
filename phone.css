@@ -14,7 +14,7 @@ body{
 	margin: 0 auto;
 	height: 630px;
 	background-color: #674bb1;
-	background-image: url("../huddle-landing/images/bg-mobile.svg");
+	background-image: url("./images/bg-mobile.png");
 }
 .topo{
 	position: relative;

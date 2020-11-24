@@ -13,11 +13,11 @@ body{
 }
 .conteiner{
 	position: relative;
-	width: 1357px;
+	width: 1358.8px;
 	margin: 0 auto;
 	height: 635px;
 	background-color: #674bb1;
-	background-image: url("../huddle-landing/images/bg-desktop.png");
+	background-image: url("./images/bg-desktop.png");
 }
 .topo{
 	position: relative;
@@ -44,7 +44,7 @@ body{
 }
 .info{
 	position: relative;
-	width: 450px;
+	width: 500px;
 	height:350px;
 	border: 0px solid #000;
 	float: left;
