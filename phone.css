@@ -12,9 +12,9 @@ body{
 	position: relative;
 	width: 295px;
 	margin: 0 auto;
-	height: 600px;
+	height: 630px;
 	background-color: #674bb1;
-	background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
+	background-image: url("../huddle-landing/images/bg-mobile.svg");
 }
 .topo{
 	position: relative;
@@ -23,14 +23,14 @@ body{
 	border:0px solid #000;
 }
 .topo img{
-	width: 30%;
+	width: 40%;
 	padding: 10px 0px 0px 30px;
 }
 .imagem{
 	position: relative;
 	width: 294px;
 	height: 200px;
-	margin-top: 20px;
+	margin-top: 15px;
 	border:0px  solid #000;
 }
 .imagem img{
@@ -65,8 +65,21 @@ input{
 	box-shadow: 2px 0px 5px 0px #A9BCF5;
 	color: #c5b6e2;
 	margin-top: 0px;
+	margin-top: 0PX;
+   }
 
-
+.button{
+	width: 295px;
+	height: 5px;
+	margin-top: 10PX;
+	padding: 10PX 0PX 0PX 85PX;
+ }
+.rede_social {
+	width: 295px;
+	height: 50px;
+	margin-top: 10PX;
+	padding: 10PX 0PX 0PX 90PX;
+	
 }
 
 .rede_social li {
@@ -74,17 +87,18 @@ input{
 	height: 20px;
 	display: inline-block;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 5px;
 	border: 1px solid #ffff;
 	border-radius: 50%;
 	padding: 5px;
 	color: #ffff;
 }
 footer{
-	position: relative;
-	width: 1358px;
+	
+	width: 295px;
 	height: 107px;
 	border: 0px solid #000;
 	float: left;
+	margin-top: 40PX;
 	
 }

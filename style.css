@@ -6,21 +6,22 @@
 	margin: 0px;
 	padding: 0px;
 	border:0px;
+
 }
 body{
 	font-family: 'Open Sans', sans-serif;
 }
 .conteiner{
 	position: relative;
-	width: 1360px;
+	width: 1357px;
 	margin: 0 auto;
 	height: 635px;
 	background-color: #674bb1;
-	background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+	background-image: url("../huddle-landing/images/bg-desktop.png");
 }
 .topo{
 	position: relative;
-	width: 1358px;
+	width: 1357px;
 	height: 100px;
 	border: 0px solid #000;
 	
@@ -44,7 +45,7 @@ body{
 .info{
 	position: relative;
 	width: 450px;
-	height:400px;
+	height:350px;
 	border: 0px solid #000;
 	float: left;
 	padding: 10px;
@@ -73,14 +74,17 @@ input{
 	height: 40px;
 	box-shadow: 2px 0px 5px 0px #A9BCF5;
 	color: #c5b6e2;
-	margin-top: 20px;
+	margin-top: 15px;
 
 }
 input[type="button"]:hover{
 	color: #ffff;
 	background-color: #c5b6e2;
 }
-
+.rede_social {
+	width: 1268px;
+	height: 50px;
+}
 .rede_social li {
 	width: 25px;
 	height: 25px;
@@ -101,8 +105,15 @@ input[type="button"]:hover{
 footer{
 	position: relative;
 	width: 1358px;
-	height: 107px;
+	height: 57px;
 	border: 0px solid #000;
 	float: left;
+	margin-top: 0PX;
+}
+.attribution{
+	position: relative;
+	width: 1358px;
+	height: 10px;
 	
 }
+
