@@ -10,10 +10,11 @@
 }
 body{
 	font-family: 'Open Sans', sans-serif;
+
 }
 .conteiner{
 	position: relative;
-	width: 1358.8px;
+	width: 1360px;
 	margin: 0 auto;
 	height: 635px;
 	background-color: #674bb1;
@@ -45,24 +46,28 @@ body{
 .info{
 	position: relative;
 	width: 500px;
-	height:350px;
+	height:400px;
 	border: 0px solid #000;
 	float: left;
 	padding: 10px;
 }
- p{
+ .info p{
+ 	text-align: left;
 	margin-top: 60px;
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
 	color: #ffff;
 	line-height: 01.5;
+	
 }
 .info h5{
-	margin-top: 40px;
+	text-align: left;
+	margin-top: 20px;
 	font-size: 14px;
 	color: #dac9fb;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.5;
+	padding: 30px 0px 0px 0px;
 
 }
 input{
@@ -74,13 +79,19 @@ input{
 	height: 40px;
 	box-shadow: 2px 0px 5px 0px #A9BCF5;
 	color: #c5b6e2;
-	margin-top: 15px;
+	margin-top: 35px;
 
 }
 input[type="button"]:hover{
 	color: #ffff;
 	background-color: #c5b6e2;
 }
+.button{
+	width: 295px;
+	height: 5px;
+	margin-top: 10PX;
+	padding: 10PX 0PX 0PX 5PX;
+ }
 .rede_social {
 	width: 1268px;
 	height: 50px;
@@ -109,11 +120,5 @@ footer{
 	border: 0px solid #000;
 	float: left;
 	margin-top: 0PX;
-}
-.attribution{
-	position: relative;
-	width: 1358px;
-	height: 10px;
-	
 }
 
