@@ -15,6 +15,7 @@ body{
 	height: 630px;
 	background-color: #674bb1;
 	background-image: url("./images/bg-mobile.png");
+	background-repeat: no-repeat;
 }
 .topo{
 	position: relative;
