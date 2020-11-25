@@ -10,9 +10,9 @@ body{
 }
 .conteiner{
 	position: relative;
-	width: 295px;
+	width: 380px;
 	margin: 0 auto;
-	height: 630px;
+	height: 667px;
 	background-color: #674bb1;
 	background-image: url("./images/bg-mobile.png");
 	background-repeat: no-repeat;
