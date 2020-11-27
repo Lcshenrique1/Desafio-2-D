@@ -84,7 +84,7 @@ input{
 .footer{
 	width: 100%;
 	margin-top: 80px;
-	padding: 0px;
+	padding: 10px 8px 0px 0px;
 }
 .footer ul{
 	display: flex;
