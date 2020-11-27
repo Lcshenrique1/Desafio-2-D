@@ -1,124 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body, ul , li, p{
 	margin: 0px;
 	padding: 0px;
-	border:0px;
+	list-style: none;
+	
 
 }
 body{
-	font-family: 'Open Sans', sans-serif;
-
-}
-.conteiner{
-	position: relative;
-	width: 1360px;
-	margin: 0 auto;
-	height: 635px;
+	background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.png");
 	background-color: #674bb1;
-	background-image: url("./images/bg-desktop.png");
 }
-.topo{
-	position: relative;
-	width: 1357px;
-	height: 100px;
-	border: 0px solid #000;
-	
+a{
+	text-decoration: none;
+}
+
+.header{
+	display: flex; 
+	justify-content: space-between; /* criar uma distancias entre os elementos/ spece between criar um espaço entre eles */
+	padding: 20px;
 }
 .topo img{
-	width: 15%;
+	max-width: 15%;
 	padding: 30px 0px 0px 50px;
 }
-.imagem{
-	position: relative;
-	width: 700px;
-	height:350px;
-	border: 0px solid #000;
-	float: left;
-	padding: 10px;
+img{
+	max-width: 105%;
+	padding: 0px 0px 0px 10px;
 }
-.imagem img{
-	width: 80%;
-	padding: 30px 0px 0px 50px;
+/* FLEXBOX */
+
+.flex{
+	display: flex; /* PERMITE DEIXA CADA IMTEM UM DO LADO DO OUTRO */
+	flex-wrap: wrap; /* permite quebra o site para a linha de baixo*/
+
 }
-.info{
-	position: relative;
-	width: 500px;
-	height:400px;
-	border: 0px solid #000;
-	float: left;
-	padding: 10px;
+.flex > div {
+	flex: 1 1 200px; /* cria uma base de alinhamento*/
+	widows: 400PX;
+	height: 400px;
+	border:0px solid #000;
+	padding: 40px;
 }
- .info p{
- 	text-align: left;
-	margin-top: 60px;
+.titulo  {
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
 	color: #ffff;
-	line-height: 01.5;
-	
-}
-.info h5{
-	text-align: left;
-	margin-top: 20px;
-	font-size: 14px;
-	color: #dac9fb;
-	font-family: 'Poppins', sans-serif;
 	line-height: 1.5;
-	padding: 30px 0px 0px 0px;
+	margin-top: 60px;
+
+}
+.texto{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin-top: 30px;
+	color:  #e1d4f4;
 
 }
 input{
-	
-	background-color: #ffff;
-	border: 0px solid;
-	border-radius: 30px;
-	width: 160px;
+	width: 150px;
 	height: 40px;
-	box-shadow: 2px 0px 5px 0px #A9BCF5;
-	color: #c5b6e2;
-	margin-top: 35px;
-
+	margin-top: 30px;
+	background-color;
+	border-radius: 50px;
+	border:0px solid;
 }
 input[type="button"]:hover{
-	color: #ffff;
-	background-color: #c5b6e2;
+	color: #fff;
+	background-color: #e980e7;
 }
-.button{
-	width: 295px;
-	height: 5px;
-	margin-top: 10PX;
-	padding: 10PX 0PX 0PX 5PX;
- }
-.rede_social {
-	width: 1268px;
-	height: 50px;
+.footer li :hover{
+	color:  #f154c4 ;
+	border: 0px solid  #f154c4;
+	
 }
-.rede_social li {
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-	text-align: center;
-	margin-top: 0px;
-	border: 1px solid #ffff;
-	border-radius: 50%;
-	padding: 10px;
-	float: right;
-	margin-right: 30px;
-	color: #ffff;
+.footer ul :hover{
+	color:  #f154c4 ;
+	border: 1px solid  #f154c4;
 }
-.rede_social  li:hover {
-	color: #f154c4;
-	border: 1px solid #f154c4;
-}
-footer{
-	position: relative;
-	width: 1358px;
-	height: 57px;
-	border: 0px solid #000;
-	float: left;
-	margin-top: 0PX;
+.footer i :hover{
+	color:  #f154c4 ;
+	border: 0px solid  #f154c4;
 }
 
+.footer{
+	display: flex;
+	float: right;
+	padding: 0px 80px 0px 50px;
+
+}
+.footer ul{
+	display: flex;
+
+}
+.footer li {
+	width: 50px;
+	height: 50px;
+	border:1px solid #fff;
+	border-radius: 50px;
+	text-align: center;
+	margin-left: 10px;
+
+}
+.footer i{
+	margin-top: 15px;
+	font-size: 20px;
+	color: #fff;
+
+}
