@@ -8,7 +8,7 @@ body, ul , li, p{
 
 }
 body{
-	background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.png");
+	background-image: url("./images/bg-desktop.png");
 	background-color: #674bb1;
 }
 a{
