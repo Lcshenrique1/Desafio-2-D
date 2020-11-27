@@ -29,11 +29,11 @@ a{
 }
 .topo img{
 	max-width: 35%;
-	padding: 10px 0px 0px 25px;
+	padding: 10px 0px 0px 30px;
 }
 img{
 	max-width: 80%;
-	padding: 20px 0px 0px 50px;
+	padding: 20px 0px 0px 40px;
 }
 /* FLEXBOX */
 
@@ -55,14 +55,14 @@ img{
 	font-family: 'Poppins', sans-serif;
 	color: #ffff;
 	line-height: 1.5;
-	margin-top: 20px;
-	padding: 10px 0px 0px 30px;
+	margin-top: 10px;
+	
 	text-align: center;
 
 }
 .texto{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-size: 19px;
 	margin-top: 30px;
 	color:  #e1d4f4;
 	text-align: center;
@@ -83,7 +83,7 @@ input{
 }
 .footer{
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 80px;
 	padding: 0px;
 }
 .footer ul{
