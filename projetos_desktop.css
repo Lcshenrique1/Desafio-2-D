@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body, ul , li, p{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+@media only screen and (max-width:  375px){
+	body, ul , li, p{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	}
+	body, ul , li, p{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body{
+	background-color: 	#00008B;
+
+	background-repeat: no-repeat;
+}
+
+header{
+	padding: 2px;
+	background-color: #000;
+
+}
+.topo{
+	margin-top: 0px;
+	height: 50px;
+	width: 100%;
+}
